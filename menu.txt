@@ -1,0 +1,10 @@
+
+#!/bin/bash
+echo &quot;Enter username:&quot;
+read user
+if id &quot;$user&quot; &amp;&gt;/dev/null; then
+echo &quot;User exists&quot;
+
+else
+echo &quot;User does not exist&quot;
+fi
